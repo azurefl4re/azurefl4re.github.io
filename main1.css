@@ -1,0 +1,46 @@
+body{
+	background-image:url(../img/background.png);
+	animation:bgpulse ease-out infinite 1s;
+}
+@keyframes bgpulse{
+	0%{
+		background-color:lime;
+	}
+
+	100%{
+		background-color:black;
+	}
+}
+h1{
+	text-align:center;
+	text-shadow:0px 4.3px 1px #a87900;
+	color:#ffcc00;
+	font-family:cursive;
+}
+h2{
+	text-align:center;
+	text-shadow:0px 2px 1px #dbdbdb;
+	color:#ffffff;
+	font-family:cursive;
+}
+ul{
+	color:white;
+	font-family:cursive;
+	font-size:20px;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+li{
+	display:inline-block;
+	padding:17px;
+	transition:0.8s ease;
+}
+a{
+	color:white;
+	text-decoration:none;
+}
+li:hover{
+	transform:scale(1.4) rotate(6deg);
+	transition:0.8s ease;
+}
